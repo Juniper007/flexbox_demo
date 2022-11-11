@@ -1,0 +1,38 @@
+body {
+  font-size: 24px;
+  background-color: green;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-left: 0;
+}
+
+nav ul > * {
+  flex: auto;
+  flex-direction: column;
+}
+
+li {
+  border: 1px solid white;
+}
+
+a {
+  display: block;
+  padding: 1em;
+  margin: 0;
+  background-color: red;
+  text-decoration: none;
+  text-align: center;
+}
+a,
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: red;
+  background-color: green;
+}
